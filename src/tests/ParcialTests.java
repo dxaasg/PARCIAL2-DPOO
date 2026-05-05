@@ -6,14 +6,14 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import logica.parcial;
+import logica.Parcial;
 
 public class ParcialTests {
-	private parcial Parcial;
+	private Parcial Parcial;
 
 	@BeforeEach
 	public void setUp() {
-		this.Parcial = new parcial();
+		this.Parcial = new Parcial();
 	
 	}
 		
